@@ -1,0 +1,21 @@
+<div class="formulaire">
+    <h1>
+         Ajoutez des etudiants dans le tableau
+    </h1>
+    <p *ngFor="let s of student"> -> je m'appele:  {{s.nom}} <br> mon prenom est: {{s.prenom}}</p>
+
+    <form #form="ngForm" (submit)="submit(form)">
+        <label for="username">User name
+            <input type="text" name="username" id="username" [(ngModel)]="nom" required/>
+           
+        </label><br> <br>
+        <label for="username">User name
+            <input  type="text" name="username" id="username" [(ngModel)]="prenom" required/>
+        </label>
+      <br> <br>
+
+     <button type="submit">Ajouter</button>
+  </form>
+</div>
+
+  

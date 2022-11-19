@@ -1,0 +1,29 @@
+
+.formulaire{
+    color: goldenrod;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: 4px 4px 4px 4px;
+    
+}
+h1{
+    width: 100%;
+    color: blue;
+   
+}
+form{
+    text-align: center;
+}
+button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: lightgray 3px 3px 7px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
