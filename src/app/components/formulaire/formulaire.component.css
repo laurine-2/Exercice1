@@ -1,6 +1,6 @@
 
 .formulaire{
-    color: goldenrod;
+    color: rgb(218, 32, 75);
     box-sizing: border-box;
     width: 50%;
     margin: 20px auto;
@@ -11,6 +11,8 @@
 h1{
     width: 100%;
     color: blue;
+    box-shadow: rgb(77, 2, 2) 3px 3px 7px;
+    
    
 }
 form{

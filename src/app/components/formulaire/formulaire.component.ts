@@ -20,22 +20,23 @@ submit (form: NgForm){
  
 
   if (this.student.length >= 5){
-    alert ('Vous avez atiend le nombre maximal d`etudiant ');
+    alert ('Vous avez atiend le nombre demande ');
   }
-  else{
-    let s = new Student(this.nom, this.prenom);
-    this.student.push(s);
-   
-  }
- /* if(this.nom == null){
-    alert ('Felicitation')
-}else{
-  alert ('remplie les chants vide')
-}*/
+  else if(this.nom =="" || this.prenom==""){
+      alert ('vous ne pouvez pas soumettre')
 
-while(this.nom == null){
-  alert ('remplie le chant vide')
-}
+    }
+    else{
+      let s = new Student(this.nom, this.prenom);
+    this.student.push(s);
+    alert ('Vous avez ajouter un utilisateur')
+
+    }
+    
+   
+  
+ 
+
 
 }
 }
